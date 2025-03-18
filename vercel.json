@@ -1,12 +1,12 @@
 {
-    "rewrites": [
-      {
-        "source": "/:match*",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/static/*",
-        "destination": "/404"
-      }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/:match*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/static/*",
+      "destination": "/404"
+    }
+  ]
+}
